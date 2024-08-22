@@ -76,7 +76,8 @@ repos = [
     'https://github.com/osiris-314/exifremove.git',
     'https://github.com/osiris-314/datarecovery.git',
     'https://github.com/osiris-314/steganography.git',
-    'https://github.com/osiris-314/shredder.git'
+    'https://github.com/osiris-314/shredder.git',
+    'https://github.com/osiris-314/imageinstaller.git'
 ]
 
 for repo in repos:
