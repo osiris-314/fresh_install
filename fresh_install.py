@@ -82,7 +82,8 @@ repos = [
     'https://github.com/osiris-314/datarecovery.git',
     'https://github.com/osiris-314/steganography.git',
     'https://github.com/osiris-314/shredder.git',
-    'https://github.com/osiris-314/imageinstaller.git'
+    'https://github.com/osiris-314/imageinstaller.git',
+    'https://github.com/osiris-314/pico_rubber_ducky.git'
 ]
 for repo in repos:
     add_other_to_path(repo)
