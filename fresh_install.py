@@ -84,7 +84,7 @@ repos = [
     'https://github.com/osiris-314/shredder.git',
     'https://github.com/osiris-314/imageinstaller.git',
     'https://github.com/osiris-314/pico_rubber_ducky.git',
-    'https://github.com/osiris-314/wifiaudit.git'
+    'https://github.com/osiris-314/wifiaudit.git',
     'https://github.com/osiris-314/deauth.git'
 ]
 for repo in repos:
