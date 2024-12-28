@@ -9,10 +9,10 @@ def install_dependencies():
     # Redirect stdout and stderr to /dev/null to suppress output
     print(Fore.LIGHTBLUE_EX + 'Updating The System ...' + Fore.RESET)
     subprocess.run('sudo apt update > /dev/null 2>&1',shell=True)
-    #print(Fore.LIGHTBLUE_EX + 'Upgrading The System ...' + Fore.RESET)
-    #subprocess.run('sudo apt upgrade -y > /dev/null 2>&1',shell=True)
-    #print(Fore.LIGHTBLUE_EX + 'Installing Default Tools ...' + Fore.RESET)
-    #subprocess.run('sudo apt install kali-linux-default -y > /dev/null 2>&1',shell=True)
+    print(Fore.LIGHTBLUE_EX + 'Upgrading The System ...' + Fore.RESET)
+    subprocess.run('sudo apt upgrade -y > /dev/null 2>&1',shell=True)
+    print(Fore.LIGHTBLUE_EX + 'Installing Default Tools ...' + Fore.RESET)
+    subprocess.run('sudo apt install kali-linux-default -y > /dev/null 2>&1',shell=True)
     print(Fore.LIGHTBLUE_EX + 'Installing Packages ...' + Fore.RESET)
     result = subprocess.run(
         'sudo apt-get install ufw python3-dev libasound2-dev -y > /dev/null 2>&1', 
