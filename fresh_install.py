@@ -53,7 +53,7 @@ def add_other_to_path(url):
         # Install requirements and suppress output
         print('Installing Requirements For ' + Fore.LIGHTBLUE_EX + str(repo_name) + Fore.RESET)
         result = subprocess.run(
-            f'pip install -r {repo_name}/requirements.txt > /dev/null 2>&1', 
+            f'pip install --break-system-packages -r {repo_name}/requirements.txt > /dev/null 2>&1', 
             shell=True
         )
         if result.returncode != 0:
